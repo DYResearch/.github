@@ -2,11 +2,58 @@
 
 # DY Research
 
-### Systems work with the arithmetic shown.
+### Real-time timing analysis with the arithmetic shown.
 
-[![Rust](https://img.shields.io/badge/Rust-no__std-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=0e141d)](https://github.com/DYResearch)
+[![Site](https://img.shields.io/badge/dyresearch.github.io-5b8def?style=for-the-badge&labelColor=0e141d)](https://dyresearch.github.io)
+[![Audit](https://img.shields.io/badge/schedulability%20audit-c2a633?style=for-the-badge&labelColor=0e141d)](profile/AUDIT.md)
+
+[![Rust](https://img.shields.io/badge/Rust-no__std-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=0e141d)](https://github.com/DYResearch/dy-wcet)
 [![Licence](https://img.shields.io/badge/Apache--2.0%20OR%20MIT-475569?style=flat-square&labelColor=0e141d)](#licensing)
 [![Contact](https://img.shields.io/badge/connect%40axonos.org-0a4a8f?style=flat-square&labelColor=0e141d)](mailto:connect@axonos.org)
+
+</div>
+
+---
+
+<div align="center">
+
+## Start here
+
+</div>
+
+**Two tasks. One number. Most implementations get it wrong.**
+
+```
+task A   100 µs every  400 µs   ← higher priority
+task B   200 µs every 1000 µs
+
+What is B's worst-case response time?
+```
+
+The obvious answer is **400 µs** — two activations of A fit inside B's 1000 µs
+period, so 200 + 2×100. It is wrong.
+
+The correct answer is **300 µs**. The window that counts is the *response time*,
+not the period: at R = 200 one activation fits, giving 300; at R = 300 still
+one, so 300 is the fixed point.
+
+Here the mistake is conservative and the system merely looks worse than it is.
+Change the periods and it inverts — the wrong method reports a deadline met that
+is missed on hardware. Both answers are plausible, neither is flagged, and a
+test written by whoever wrote the bug passes.
+
+**Check it in thirty seconds:**
+
+```sh
+git clone https://github.com/DYResearch/dy-wcet && cd dy-wcet && cargo test
+```
+
+The case above is `a_lower_priority_task_pays_for_every_preemption`, one of
+twelve.
+
+<div align="center">
+
+**[Read the full argument at dyresearch.github.io →](https://dyresearch.github.io)**
 
 </div>
 
@@ -98,5 +145,3 @@ identifier and its copyright line.
 © 2026 Denis Yermakou
 
 </div>
-
-
