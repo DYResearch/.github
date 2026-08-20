@@ -41,6 +41,27 @@ because it converts a real failure into an apparent success.
 **No dependencies where none are needed.** A crate that computes a bound should
 not pull in a runtime to do it.
 
+---
+
+<div align="center">
+
+## Schedulability audit
+
+**You send a task set. I return a response-time analysis, with every iteration
+written out, and signed.**
+
+For teams where a missed deadline is a machine acting late rather than a
+dropped frame. The tool is open and free; what is paid for is someone reading
+the set, naming the assumptions it rests on, and standing behind the result.
+
+**[→ What it covers, what it does not, and a worked example](AUDIT.md)**
+
+<sub>connect@axonos.org · payment in Dogecoin</sub>
+
+</div>
+
+---
+
 ## Repositories
 
 | | What it is |
@@ -77,4 +98,5 @@ identifier and its copyright line.
 © 2026 Denis Yermakou
 
 </div>
+
 
