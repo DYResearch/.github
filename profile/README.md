@@ -5,7 +5,7 @@
 ### Real-time timing analysis with the arithmetic shown.
 
 [![Site](https://img.shields.io/badge/dyresearch.github.io-5b8def?style=for-the-badge&labelColor=0e141d)](https://dyresearch.github.io)
-[![Audit](https://img.shields.io/badge/schedulability%20audit-c2a633?style=for-the-badge&labelColor=0e141d)](profile/AUDIT.md)
+[![Audit](https://img.shields.io/badge/schedulability%20audit-c2a633?style=for-the-badge&labelColor=0e141d)](AUDIT.md)
 
 [![Rust](https://img.shields.io/badge/Rust-no__std-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=0e141d)](https://github.com/DYResearch/dy-wcet)
 [![Licence](https://img.shields.io/badge/Apache--2.0%20OR%20MIT-475569?style=flat-square&labelColor=0e141d)](#licensing)
@@ -145,3 +145,4 @@ identifier and its copyright line.
 © 2026 Denis Yermakou
 
 </div>
+
