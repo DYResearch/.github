@@ -72,6 +72,25 @@ The work here is narrower than a platform and more specific than a library: the
 pieces of real-time analysis where the arithmetic decides the answer, written so
 that the arithmetic can be checked.
 
+---
+
+## Checked against a second implementation
+
+The AxonOS kernel carries its own response-time analysis, written months
+earlier for a different reason. The two agree on a shared task set — and the
+first attempt at that comparison is the part worth reading.
+
+It used a set whose execution times summed to less than the shortest period, so
+no task activated twice inside any response window. Every ceiling was 1, the
+fixed point was the first value tried, and what had been verified was addition.
+The set now used takes three iterations on its lowest-priority task.
+
+**[The derivation, iteration by iteration →](https://github.com/DYResearch/dy-wcet/blob/main/docs/CROSSCHECK.md)**
+
+Both implementations are by the same author, so this is not independent
+verification. A shared misreading of the recurrence would agree with itself
+perfectly, which is why every figure there is derived rather than asserted.
+
 ## What that means in practice
 
 **Integers, everywhere the result matters.** Same input, same bits, any machine.
@@ -145,4 +164,3 @@ identifier and its copyright line.
 © 2026 Denis Yermakou
 
 </div>
-
