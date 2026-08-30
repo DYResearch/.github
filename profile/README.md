@@ -49,7 +49,7 @@ git clone https://github.com/DYResearch/dy-wcet && cd dy-wcet && cargo test
 ```
 
 The case above is `a_lower_priority_task_pays_for_every_preemption`, one of
-twelve.
+forty-nine.
 
 <div align="center">
 
