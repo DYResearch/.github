@@ -179,6 +179,6 @@ agreements.
 
 © DY Research / Denis Yermakou
 
-[dyresearch.github.io](https://dyresearch.github.io) · [connect@axonos.org](mailto:connect@axonos.org) · [LinkedIn](https://www.linkedin.com/in/axonos) · [AxonOS](https://axonos.org)
+[dyresearch.github.io](https://dyresearch.github.io) · [connect@axonos.org](mailto:connect@axonos.org) · [LinkedIn](https://www.linkedin.com/in/dyresearch/) · [AxonOS](https://axonos.org)
 
 </div>
