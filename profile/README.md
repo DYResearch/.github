@@ -5,7 +5,7 @@
   <img alt="DY Research — know what is real. Independent technical intelligence: technical due diligence, worst-case timing, formal verification, a written verdict." src="https://github.com/DYResearch/.github/raw/main/profile/assets/hero-light.svg" width="100%">
 </picture>
 
-**[dyresearch.github.io](https://dyresearch.github.io)** · **[Engagements](https://dyresearch.github.io/#engagements)** · **[dy-wcet](https://github.com/DYResearch/dy-wcet)** · **[Try it live](https://dyresearch.github.io/wcet/)** · **[AxonOS](https://github.com/AxonOS-org)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)**
+**[dyresearch.github.io](https://dyresearch.github.io)** · **[Engagements](https://dyresearch.github.io/#engagements)** · **[dy-wcet](https://github.com/DYResearch/dy-wcet)** · **[Try it live](https://dyresearch.github.io/wcet/)** · **[DY PROOF](https://dy-proof.github.io)** · **[AxonOS](https://github.com/AxonOS-org)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)**
 
 [![CI](https://img.shields.io/github/actions/workflow/status/DYResearch/dy-wcet/ci.yml?branch=main&style=flat-square&label=dy-wcet%20CI&labelColor=0d1117)](https://github.com/DYResearch/dy-wcet/actions)
 [![Kani](https://img.shields.io/badge/Kani-8%20proofs%20in%20CI-2ea043?style=flat-square&labelColor=0d1117)](https://github.com/DYResearch/dy-wcet#formal-verification)
@@ -123,40 +123,21 @@ AxonOS or builds on it, you are told at scoping, before you commit to anything.
 
 ## The ecosystem
 
-<table>
-<tr>
-<td width="50%" valign="top">
+DY Research is one layer of one house, and every layer works to the same rule:
+nothing is claimed that cannot be checked.
 
-**Build — [AxonOS](https://github.com/AxonOS-org)**<br>
-The operating layer: kernel, signal pipeline, consent, protocol and SDK.
-Specified openly, verified by machine.
+```text
+THE DY ENGINEERING ECOSYSTEM
+──────────────────────────────────────────────────────────────────────
+L4   DIAGNOSTICS      DY PROOF       failure-boundary diagnostics
+L3   VERIFICATION     DY Research    due diligence · worst-case timing   ◀ here
+L2   INTELLIGENCE     AxonOS-BCI     the Radar · open neurotech, scored
+L1   INFRASTRUCTURE   AxonOS         deterministic real-time kernel · open
+──────────────────────────────────────────────────────────────────────
+     build ──▶ discover ──▶ verify ──▶ prove
+```
 
-</td>
-<td width="50%" valign="top">
-
-**Measure — [dy-wcet](https://github.com/DYResearch/dy-wcet)**<br>
-Worst-case response-time analysis in integer arithmetic. Zero dependencies,
-eight Kani proofs, every one closing in CI.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Discover — [Radar](https://axonos-bci.github.io/axonos-community-radar/)**<br>
-A living map of open neurotech: over a hundred projects, scored from public
-evidence and refreshed every three hours.
-
-</td>
-<td width="50%" valign="top">
-
-**Verify — [DY Research](https://dyresearch.github.io)**<br>
-Independent technical due diligence for investors, founders and engineering
-teams. A written verdict on what the evidence supports.
-
-</td>
-</tr>
-</table>
+**[DY PROOF](https://dy-proof.github.io)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)** · **[AxonOS](https://axonos.org)** · measured with **[dy-wcet](https://github.com/DYResearch/dy-wcet)**
 
 <sub>The founder's account, with the live map and the demos: [AxonOS-BCI](https://github.com/AxonOS-BCI).</sub>
 
