@@ -12,6 +12,7 @@
 [![Dependencies](https://img.shields.io/badge/dependencies-0-1f8fae?style=flat-square&labelColor=0d1117)](https://github.com/DYResearch/dy-wcet/blob/main/Cargo.toml)
 [![Engagements](https://img.shields.io/badge/engagements-from%20%245%2C000-1f8fae?style=flat-square&labelColor=0d1117)](https://dyresearch.github.io/#engagements)
 [![License](https://img.shields.io/badge/license-Apache--2.0%20OR%20MIT-8b949e?style=flat-square&labelColor=0d1117)](#licensing)
+[![AxonOS Radar](https://img.shields.io/badge/AxonOS%20Radar-open%20neurotech%20map-1f8fae?style=flat-square&labelColor=0b1220)](https://axonos-bci.github.io/axonos-community-radar/)
 
 </div>
 
