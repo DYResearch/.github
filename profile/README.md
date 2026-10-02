@@ -5,7 +5,7 @@
   <img alt="DY Research — know what is real. Independent technical intelligence: technical due diligence, worst-case timing, formal verification, a written verdict." src="https://github.com/DYResearch/.github/raw/main/profile/assets/hero-light.svg" width="100%">
 </picture>
 
-**[dyresearch.github.io](https://dyresearch.github.io)** · **[Engagements](https://dyresearch.github.io/#engagements)** · **[dy-wcet](https://github.com/DYResearch/dy-wcet)** · **[Try it live](https://dyresearch.github.io/wcet/)** · **[DY PROOF](https://dy-proof.github.io)** · **[AxonOS](https://github.com/AxonOS-org)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)**
+**[dyresearch.github.io](https://dyresearch.github.io)** · **[Engagements](https://dyresearch.github.io/#engagements)** · **[DY-WCET](https://github.com/DYResearch/dy-wcet)** · **[Try it live](https://dyresearch.github.io/wcet/)** · **[DY PROOF](https://dy-proof.github.io)** · **[AxonOS](https://github.com/AxonOS-org)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)**
 
 [![CI](https://img.shields.io/github/actions/workflow/status/DYResearch/dy-wcet/ci.yml?branch=main&style=flat-square&label=dy-wcet%20CI&labelColor=0d1117)](https://github.com/DYResearch/dy-wcet/actions)
 [![Kani](https://img.shields.io/badge/Kani-8%20proofs%20in%20CI-2ea043?style=flat-square&labelColor=0d1117)](https://github.com/DYResearch/dy-wcet#formal-verification)
@@ -27,6 +27,8 @@ The tooling is open source. The verdict is yours.
 ---
 
 ## Engagements
+
+**What you receive.** Two samples show the standard of every engagement: [a Focused Audit report](https://dyresearch.github.io/sample/dy-research-focused-audit-sample.pdf), fourteen pages on a robotic arm's joint controller, and [the investment-committee memo](https://dyresearch.github.io/sample/dy-research-ic-memo-sample.pdf) that closes a Due Diligence. Every engagement runs under a mutual non-disclosure agreement, signed before the first file, and nothing is published without the client's written consent: that is why the company in the samples is fictional.
 
 | Engagement | The question it answers | Price |
 |:--|:--|:--|
@@ -56,7 +58,7 @@ times        terms           times       auditor can re-run
 
 | Tool | What it produces | Status |
 |:--|:--|:--|
-| [**dy-wcet**](https://github.com/DYResearch/dy-wcet) | Worst-case response times, exactly, with a named refusal wherever a bound cannot be justified | **Shipped** · 4.1.6 · 8 Kani proofs and 100 tests in CI · 0 dependencies |
+| [**DY-WCET**](https://github.com/DYResearch/dy-wcet) | Worst-case response times, exactly, with a named refusal wherever a bound cannot be justified | **Shipped** · 4.1.6 · 8 Kani proofs and 100 tests in CI · 0 dependencies |
 | [dy-trace](https://github.com/DYResearch/dy-trace) | Execution-time inputs with their confidence stated | In design |
 | [dy-blocking](https://github.com/DYResearch/dy-blocking) | Blocking terms derived from a resource graph, not estimated | In design |
 | [dy-certify](https://github.com/DYResearch/dy-certify) | A signed schedulability certificate an auditor can re-run | In design |
@@ -65,7 +67,7 @@ times        terms           times       auditor can re-run
 
 ---
 
-## In focus · dy-wcet
+## In focus · DY-WCET
 
 Two tasks. A runs 100 µs every 400 µs at higher priority; B runs 200 µs every
 1,000 µs. The common answer for B is 400 µs. The correct one is **300 µs** — and
@@ -88,7 +90,7 @@ hardware.
 The method, applied to the practice's own tool: this is what every engagement
 produces for every claim that matters.
 
-| Step | For dy-wcet |
+| Step | For DY-WCET |
 |:--|:--|
 | **Claim** | Response times are computed exactly, in integer arithmetic |
 | **Source** | Stated as a design rule in the [README](https://github.com/DYResearch/dy-wcet#why-it-exists) |
@@ -104,7 +106,7 @@ produces for every claim that matters.
 | | |
 |:--|:--|
 | [**An RP2350 timer that stopped for minutes**](https://github.com/DYResearch/dy-wcet/blob/main/case-studies/embassy-6528.md) | An intermittent `embassy-time` failure traced through alarm arming and timer-queue liveness, with evidence and hypothesis kept apart. The standard of delivery for a Focused Audit |
-| [**557 confident wrong answers**](https://github.com/DYResearch/dy-wcet/blob/main/CHANGELOG.md) | The same review, run on dy-wcet itself, found it had reported 557 task sets as meeting deadlines they miss. Found, fixed, and published in full |
+| [**557 confident wrong answers**](https://github.com/DYResearch/dy-wcet/blob/main/CHANGELOG.md) | The same review, run on DY-WCET itself, found it had reported 557 task sets as meeting deadlines they miss. Found, fixed, and published in full |
 | [**Two implementations, one answer**](https://github.com/DYResearch/dy-wcet/blob/main/docs/CROSSCHECK.md) | A second response-time analysis, written separately, agrees on a set where the fixed point is not the first value tried |
 
 ---
@@ -137,7 +139,7 @@ L1   INFRASTRUCTURE   AxonOS         deterministic real-time kernel · open
      build ──▶ discover ──▶ verify ──▶ prove
 ```
 
-**[DY PROOF](https://dy-proof.github.io)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)** · **[AxonOS](https://axonos.org)** · measured with **[dy-wcet](https://github.com/DYResearch/dy-wcet)**
+**[DY PROOF](https://dy-proof.github.io)** · **[Radar](https://axonos-bci.github.io/axonos-community-radar/)** · **[AxonOS](https://axonos.org)** · measured with **[DY-WCET](https://github.com/DYResearch/dy-wcet)**
 
 <sub>The founder's account, with the live map and the demos: [AxonOS-BCI](https://github.com/AxonOS-BCI).</sub>
 
@@ -146,7 +148,7 @@ L1   INFRASTRUCTURE   AxonOS         deterministic real-time kernel · open
 ## Stated plainly
 
 - **Not investment advice.** The findings are technical; the decision stays yours.
-- **Not a certification.** dy-wcet is not a qualified tool under any safety standard, and no engagement issues or implies a standard's qualification.
+- **Not a certification.** DY-WCET is not a qualified tool under any safety standard, and no engagement issues or implies a standard's qualification.
 - **Not a warranty.** What you receive is evidence and reasoning, set out so that it can be checked.
 
 ## Licensing
