@@ -33,11 +33,11 @@ The tooling is open source. The verdict is yours.
 
 | Engagement | The question it answers | Price |
 |:--|:--|:--|
-| **Snapshot** · 5 business days | What does this technology actually do, and what does its evidence support? | **$5,000** |
-| **Focused Audit** · 2–3 weeks | Does one critical property — timing, determinism, concurrency — actually hold? | **$12,000** |
-| **Due Diligence** · 3–4 weeks | Is the technology what the company says it is, and what could break the investment? | **$25,000** |
+| **Snapshot** · 5 business days | What does this technology actually do, and what does its evidence support? | on request |
+| **Focused Audit** · 2–3 weeks | Does one critical property — timing, determinism, concurrency — actually hold? | on request |
+| **Due Diligence** · 3–4 weeks | Is the technology what the company says it is, and what could break the investment? | on request |
 
-Fixed price and scope, confirmed in writing before any work begins; invoiced in
+Pricing on request; price and scope are fixed in writing before any work begins; invoiced in
 USD or EUR. Every engagement is carried out by the principal, start to finish.
 **[Engagements and full scope →](https://dyresearch.github.io/#engagements)** ·
 [the scope document](https://github.com/DYResearch/dy-wcet/blob/main/AUDIT.md) ·
