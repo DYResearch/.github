@@ -8,7 +8,7 @@
 
 Every DY Research engagement — Snapshot, Focused Audit and Due Diligence — is
 described in a single document: the question each one answers, who it is for,
-what it includes, what you receive, where it stops, and its fixed price.
+what it includes, what you receive, and where it stops.
 
 **[The scope document →](https://github.com/DYResearch/dy-wcet/blob/main/AUDIT.md)** ·
 **[Engagements on the site →](https://dyresearch.github.io/#engagements)**
