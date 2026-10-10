@@ -60,6 +60,7 @@ times        terms           times       auditor can re-run
 | Tool | What it produces | Status |
 |:--|:--|:--|
 | [**DY-WCET**](https://github.com/DYResearch/dy-wcet) | Worst-case response times, exactly, with a named refusal wherever a bound cannot be justified | **Shipped** · 4.1.6 · 8 Kani proofs and 100 tests in CI · 0 dependencies |
+| [**DY-WCET Pro**](https://dyresearch.github.io/wcet/pro/) | Three commands from a task list to a filed, reproducible report: the verdict, the margin, and the priority order that fixes a miss | **Early access** · built on dy-wcet · not open source |
 | [dy-trace](https://github.com/DYResearch/dy-trace) | Execution-time inputs with their confidence stated | In design |
 | [dy-blocking](https://github.com/DYResearch/dy-blocking) | Blocking terms derived from a resource graph, not estimated | In design |
 | [dy-certify](https://github.com/DYResearch/dy-certify) | A signed schedulability certificate an auditor can re-run | In design |
