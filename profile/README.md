@@ -31,14 +31,14 @@ The tooling is open source. The verdict is yours.
 
 **What you receive.** Two samples show the standard of every engagement: [a Focused Audit report](https://dyresearch.github.io/sample/dy-research-focused-audit-sample.pdf), fourteen pages on a robotic arm's joint controller, and [the investment-committee memo](https://dyresearch.github.io/sample/dy-research-ic-memo-sample.pdf) that closes a Due Diligence. Every engagement runs under a mutual non-disclosure agreement, signed before the first file, and nothing is published without the client's written consent: that is why the company in the samples is fictional.
 
-| Engagement | The question it answers | Price |
-|:--|:--|:--|
-| **Snapshot** · 5 business days | What does this technology actually do, and what does its evidence support? | on request |
-| **Focused Audit** · 2–3 weeks | Does one critical property — timing, determinism, concurrency — actually hold? | on request |
-| **Due Diligence** · 3–4 weeks | Is the technology what the company says it is, and what could break the investment? | on request |
+| Engagement | The question it answers |
+|:--|:--|
+| **Snapshot** · 5 business days | What does this technology actually do, and what does its evidence support? |
+| **Focused Audit** · 2–3 weeks | Does one critical property — timing, determinism, concurrency — actually hold? |
+| **Due Diligence** · 3–4 weeks | Is the technology what the company says it is, and what could break the investment? |
 
-Pricing on request; price and scope are fixed in writing before any work begins; invoiced in
-USD or EUR. Every engagement is carried out by the principal, start to finish.
+Every engagement is scoped to the question in writing before any work begins, and carried
+out by the principal, start to finish.
 **[Engagements and full scope →](https://dyresearch.github.io/#engagements)** ·
 [the scope document](https://github.com/DYResearch/dy-wcet/blob/main/AUDIT.md) ·
 [connect@axonos.org](mailto:connect@axonos.org)
